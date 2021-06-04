@@ -6,15 +6,23 @@ curl -X POST localhost:1635/connect/ip4/47.241.6.61/tcp/1634/p2p/16Uiu2HAmVj4MJr
 
 # 查询地址
 节点连接情况
+```
 http://localhost:1635/peers
+```
 
 钱包情况
+```
 http://localhost:1635/addresses
+```
 
 提取记录
+```
 http://localhost:1635/chequebook/address 
+```
 
 查询支票
+```
 http://localhost:1635/chequebook/cheque
 http://localhost:1635/chequebook/balance
+```
 
